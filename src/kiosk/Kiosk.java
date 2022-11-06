@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class Kiosk {
 
 	public static void main(String[] args) {
+		System.out.println("나 여깄다@@@@@@@@@@@@@@@@");
 		LocalDateTime now = LocalDateTime.now();
 		String printNow = now.format(DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm"));
 
